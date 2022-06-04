@@ -1,0 +1,10 @@
+li {
+    list-style: none;
+}
+ul {
+    display: flex;
+}
+button {
+    width: 30px;
+    height: 30px;
+}
