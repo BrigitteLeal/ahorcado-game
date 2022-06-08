@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3a04f89f4a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style/app.css">
+    <title>Ahorcado | Juega ahora</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><i class="fa-solid fa-angle-left"></i></a>
+        <h1>AHORCADO</h1>
+    </header>
+    <main>
+        <section class="keyboard-container">
+            <div id="keyboard"></div>
+        </section>
+        <section class="secret-word-container">
+            <div class="secret-word" id="secretWordAhorcado"></div>
+        </section>
+        <section class="counter-button-container">
+            <div class="counter-container"><p class="counter" id="attempCounter">0</p></div>
+            <button class="button" type="button" onclick="resetWord()"><i class="fa-solid fa-arrow-rotate-left"></i></button>
+        </section>
+        <section class="image-container">
+            <img id="hangman">
+        </section>
+    </main>
+    <script src="../src/app.js"></script>
+</body>
+</html>
